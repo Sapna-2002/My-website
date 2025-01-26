@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav3 - Our Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #554b10, #d99fd3);
+            color: white;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            text-align: center;
+        }
+        .btn {
+            padding: 10px 20px;
+            background-color: #ff67d9;
+            border: none;
+            color: white;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+        .main-content {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .main-content h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        .main-content p {
+            font-size: 1.2em;
+            margin-bottom: 40px;
+            color: #d3c4e0;
+        }
+        .portfolio {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 0 50px;
+        }
+        .portfolio-item {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+        }
+        .portfolio-item img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .portfolio-item h3 {
+            margin: 15px 0 10px;
+        }
+        .portfolio-item p {
+            color: #d3c4e0;
+            font-size: 0.9em;
+        }
+        .portfolio-item button {
+            margin-top: 10px;
+            background-color: #ff67d9;
+            border: none;
+            padding: 10px 20px;
+            color: white;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>Logo</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="Nav-1.html">About Us</a>
+            <a href="Nav-2.html">Services</a>
+            <a href="Nav-3.html">Portfolio</a>
+        </nav>
+        <button class="btn">Contact Us</button>
+    </header>
+    <section class="main-content">
+        <h1>Our Portfolio</h1>
+        <p>Explore our recent projects that showcase creativity, innovation, and dedication. We take pride in delivering exceptional results for our clients.</p>
+        <div class="portfolio">
+            <div class="portfolio-item">
+                <img src="project1.jpg" alt="Project 1">
+                <h3>Project 1</h3>
+                <p>Responsive web design for a modern business.</p>
+                <button>View Details</button>
+            </div>
+            <div class="portfolio-item">
+                <img src="project2.jpg" alt="Project 2">
+                <h3>Project 2</h3>
+                <p>Branding and identity for a growing startup.</p>
+                <button>View Details</button>
+            </div>
+            <div class="portfolio-item">
+                <img src="project3.jpg" alt="Project 3">
+                <h3>Project 3</h3>
+                <p>E-commerce platform with user-friendly design.</p>
+                <button>View Details</button>
+            </div>
+            <div class="portfolio-item">
+                <img src="project4.jpg" alt="Project 4">
+                <h3>Project 4</h3>
+                <p>Custom digital marketing strategy for a client.</p>
+                <button>View Details</button>
+            </div>
+            <div class="portfolio-item">
